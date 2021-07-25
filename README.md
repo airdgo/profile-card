@@ -29,8 +29,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/hi-this-is-my-first-challenge-i-used-flexbox-in-this-one-IbIWMH5Mr)
+- Live Site URL: [Add live site URL here](https://airdgo-stats-preview.netlify.app)
 
 ## My process
 
