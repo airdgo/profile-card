@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .bg-pattern-bottom {
@@ -25,13 +26,6 @@ body {
     bottom: 40%;
     right: 50%;
     z-index: -1;
-}
-
-.container {
-    height: 370px;
-    width: 350px;
-    background: white;
-    border-radius: 20px;
 }
 
 .top {
@@ -78,14 +72,14 @@ span {
     padding: 5px;
 }
 
-.city {
+.flip-card-front .city {
     color:hsl(227, 10%, 46%);
     font-weight: 400;
     font-size: 14px;
     padding: 5px;
 }
 
-.text {
+.flip-card-front .text {
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -93,17 +87,14 @@ span {
     padding: 5px;
 }
 
-.attribution {
-    position: fixed;
-    top: 95%;
-    left: 50%;
-    width: 320px;
-    margin-left: -160px;
-    text-align: center;
+hr {
+    height: 0.5px;
+    border: none;
+    background-color: hsl(0, 0%, 59%);
 }
 
-p {
-    font-family: 'Kumbh Sans', sans-serif;
+.flip-card-front p {
+
     position: relative;
     text-align: center;
     font-size: 18px;
@@ -117,4 +108,83 @@ hr {
     position: relative;
     color: hsl(227, 10%, 46%);
     bottom: 4%
+}
+
+
+/* =============
+    Flip Card   
+   =============*/
+
+.container {
+    height: 370px;
+    width: 350px;
+    background-color: transparent;
+    perspective: 1000px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+  
+.container:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+  
+.flip-card-front {
+    background-color: white;
+    height: 370px;
+    width: 350px;
+}
+
+.flip-card-back {
+    text-align: center;
+    background-color: rgb(16,16,16);
+    transform: rotateY(180deg);
+    color: white;
+
+}
+
+.flip-card-back h1 {
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.flip-card-back p {
+    margin-top: 3em;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+a:active {
+    color: hotpink;
+    text-decoration: none;
 }

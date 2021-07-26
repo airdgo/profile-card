@@ -9,38 +9,47 @@
   <title>Frontend Mentor | Profile card component</title>
 
   <link rel='stylesheet' href='style.css'>
-  <ling rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap'> 
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap'> 
 
 </head>
 
 <body>
 
-  <img src="./images/bg-pattern-bottom.svg" class="bg-pattern-bottom">
-  <img src="./images/bg-pattern-top.svg" class="bg-pattern-top">
+  <img src="./images/bg-pattern-bottom.svg" class="bg-pattern-bottom" alt="bottom background pattern">
+  <img src="./images/bg-pattern-top.svg" class="bg-pattern-top" alt="top background pattern">
 
   <div class="container">
-    <img src="./images/bg-pattern-card.svg" class="top">
-    <img src="./images/image-victor.jpg" class="victor">
-      <div class="name-loc">
-        <p class="name">Victor Crest <span>26</span></p>
-        <p class="city">London</p>
-      </div>
-      <hr>
-      <div class="stats">
-        <div>
-          <p class="numbers">80K</p>
-          <p class="text">Followers</p>
-        </div>
-      <div>
-        <p class="numbers">803K</p>
-        <p class="text">Likes</p>
-      </div>
-      <div>
-        <p class="numbers">1.4K</p>
-        <p class="text">Photos</p>
-      </div>
-    </div>
-  </div>
 
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/bg-pattern-card.svg" class="top" alt="card background pattern">
+          <img src="./images/image-victor.jpg" class="victor" alt="image of Victor">
+          <div class="name-loc">
+            <p class="name">Victor Crest <span>26</span></p>
+            <p class="city">London</p>
+          </div>
+          <hr>
+          <div class="stats">
+            <div>
+              <p class="numbers">80K</p>
+              <p class="text">Followers</p>
+            </div>
+            <div>
+              <p class="numbers">803K</p>
+              <p class="text">Likes</p>
+            </div>
+            <div>
+              <p class="numbers">1.4K</p>
+              <p class="text">Photos</p>
+            </div>
+          </div>
+        </div>  
+        <div class="flip-card-back">
+          <h1>Profile Card</h1>
+          <h3>Challenge by <a href="https://www.frontendmentor.io/solutions" target="_blank">Frontendmentor</a></h3>
+          <p>Developed by <a href="https://github.com/airdgo" target="_blank">airdog.</a></p>
+        </div>
+      </div>
+  </div>
 </body>
 </html>
