@@ -29,8 +29,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/hi-this-is-my-first-challenge-i-used-flexbox-in-this-one-IbIWMH5Mr)
-- Live Site URL: [Site](https://airdgo-stats-preview.netlify.app)
+- [Live Site](https://airdgo-stats-preview.netlify.app)
 
 ## My process
 
@@ -42,7 +41,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-I have learned how to use felxbox in order to center a container and elements within that container.
+I have learned how to use felxbox in order to center a container and elements within that container. Also I've started to get familiar with animations.
 
 ```css
 body {
@@ -61,6 +60,7 @@ In the future I intend on learning more about flexbox and how to make a website 
 ### Useful resources
 
 - [Resource 1](https://flexbox.help) - This helped me understand flexbox. I really liked this pattern and will use it going forward.
+- [Resource 2](https://www.w3schools.com/howto/howto_css_flip_card.asp) - Really usefull to make a card flip.
 
 ## Author
 
